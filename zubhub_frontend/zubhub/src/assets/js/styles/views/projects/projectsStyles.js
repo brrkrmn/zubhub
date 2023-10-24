@@ -25,7 +25,6 @@ const styles = theme => ({
     // '& .MuiGrid-root.MuiGrid-container': {
     //   width: '100%',
     [theme.breakpoints.down('sm')]: {
-      padding: '0 24px',
       width: '100%',
     },
   },
@@ -35,7 +34,7 @@ const styles = theme => ({
     paddingTop: '2.3em',
     paddingBottom: '2.8em',
     justifyContent: 'center',
-    width: '100vw',
+    width: '100%',
     marginBottom: '2em',
     height:'100vh',
     [theme.breakpoints.down('sm')]: {
@@ -52,7 +51,7 @@ const styles = theme => ({
       paddingTop: '2.3em',
       paddingBottom: '2.85em',
       justifyContent: 'center',
-      width: '100vw',
+      width: '100%',
       marginBottom: '2em'
   },
   imageLeft: {
